@@ -3,5 +3,6 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/Developing-Front-End-Apps-with-React",
   plugins: [react()],
 })
